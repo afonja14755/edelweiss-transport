@@ -257,6 +257,7 @@ a {
     .pagination__menu-dropdown_parent:hover > .pagination__menu-submenu {
         display: block;
         transition: .3s;
+        z-index: 1;
     }
 
     ul.submenu__list {
