@@ -739,7 +739,7 @@ a {
         float: right;
     }
 
-    span.copyright__create > p {
+    span.copyright__create > a {
         display: inline-block;
         color: #9f9f9f;
     }
@@ -1511,7 +1511,7 @@ a {
         float: right;
     }
 
-    span.copyright__create > p {
+    span.copyright__create > a {
         display: inline-block;
         color: #9f9f9f;
     }
@@ -2314,7 +2314,7 @@ a {
         margin-top: 20px;
     }
 
-    span.copyright__create > p {
+    span.copyright__create > a {
         display: inline-block;
         color: #9f9f9f;
     }
