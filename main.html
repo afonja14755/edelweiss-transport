@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Транспортная компания Эдельвейс транспорт</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="css/slick-1.8.1/slick/slick-theme.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="css/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="slider.js"></script>
+</head>
+
+<body>
+    <div class="main_wrap">
+        <header>
+            <div class="header__logo">
+                <a href="#"><img src="img/logo.png" alt="logo" class="logo-img"></a>
+            </div>
+            <div class="header__contact">
+                <a href="tel:+74956680440" class="phone">
+                    <img src="img/icon/phone-icon.png" alt="phone-icon">+7  (495) <span>668-04-40</span>
+                </a>
+                <a href="mailto:welcome@edelweiss-lc.ru" class="mail">
+                    <img src="img/icon/mail-icon.png" alt="mail-con">welcome@edelweiss-lc.ru
+                </a>
+            </div>
+            <div class="header__address">
+                <img src="img/icon/markmap-icon.png" alt="markmap-icon">
+                <span>г.Химки, ул.Молодежная 2А офис №6</span>
+            </div>
+            <div class="header__information">
+                <div class="header__callback">
+                    <a href="#" class="callback__container-button">
+                        <div class="callback__text-wrap">Обратная связь</div>
+                    </a>
+                    <a href="#" class="callback__checkdelivery-button">
+                        <div class="callback__text-wrap">Отследить отправку</div>
+                    </a>
+                </div>
+                <div class="header__calculator">
+                    <a href="#" class="calculator">
+                        <div class="btn__icon"><img src="img/calculator.png" alt="icon-calculator"></div>
+                        <div class="btn__text">Рассчитать стоимость перевозки/таможенного оформления</div>
+                    </a>
+                </div>
+            </div>
+        </header>
+    </div>
+    <nav id="pagination">
+        <div class="main_wrap">
+            <div id="pagination__burger-menu">
+                <i></i>
+                <span>Меню</span>
+            </div>
+            <ul class="pagination__menu hidden">
+                <li class="pagination__menu-icon">
+                    <a href="#">
+                        <img src="img/icon/home-icon.png" alt="home-icon">
+                        <span>Главная</span>
+                    </a>
+                </li>
+                <li class="pagination__menu-dropdown_parent">
+                    <a href="#">Грузоперевозки</a>
+                    <div class="dropdown-arrow">
+                        <img src="img/dropdown_arrow-close.png" alt="dropdown_arrow-close">
+                    </div>
+                    <div class="pagination__menu-submenu">
+                        <ul class="submenu__list main_wrap">
+                            <li><a href="#">Автомобильные перевозки</a></li>
+                            <li><a href="#">Морские перевозки</a></li>
+                            <li><a href="#">Мультимодальные перевозки</a></li>
+                            <li><a href="#">Железнодорожные перевозки</a></li>
+                            <li><a href="#">Негабаритные перевозки</a></li>
+                            <li><a href="#">Перевозки в режиме таможенного транзита</a></li>
+                            <li><a href="#">Авиа перевозки</a></li>
+                            <li><a href="#">Контейнерные перевозки</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Маршруты</a>
+                </li>
+                <li>
+                    <a href="#">Сборные грузы</a>
+                </li>
+                <li>
+                    <a href="#">Складские услуги</a>
+                </li>
+                <li>
+                    <a href="#">Таможенное оформление</a>
+                </li>
+                <li>
+                    <a href="#">Страхование</a>
+                </li>
+                <li>
+                    <a href="#">Аутсорсинг вэд</a>
+                </li>
+                <li class="pagination__menu-dropdown_parent">
+                    <a href="#">Информация</a>
+                    <div class="dropdown-arrow">
+                        <img src="img/dropdown_arrow-close.png" alt="dropdown_arrow-close">
+                    </div>
+                    <div class="pagination__menu-submenu">
+                        <ul class="submenu__list main_wrap">
+                            <li><a href="#">Полезная информация по автоперевозкам</a></li>
+                            <li><a href="#">Полезная информация по морским перевозкам</a></li>
+                            <li><a href="#">Полезная информация по мультимодальным перевозкам</a></li>
+                            <li><a href="#">Полезная информация по сборным грузам</a></li>
+                            <li><a href="#">Полезная информация по негабаритным грузам</a></li>
+                            <li><a href="#">Полезная информация по авиа грузам</a></li>
+                            <li><a href="#">Полезная информация по контейнерным перевозкам</a></li>
+                            <li><a href="#">Справочник ВЭД</a></li>
+                            <li><a href="#">Собственный транспорт</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="main_slider">
+        <div class="slide" style="background-image: url(img/slider/sl1.png);">
+            <div class="slider__description-wrap">
+                <div class="slider__description">
+                    <b>Доставляем грузы</b>
+                    <p>по России и Миру</p>
+                    <span>любым удобным транспортом</span>
+                </div>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url(img/slider/sl2.png);">
+            <div class="slider__description-wrap">
+                <div class="slider__description">
+                    <b>Грузоперевозки</b>
+                    <p>по России и Миру</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="service" class="main_wrap">
+        <h2>Доставляем грузы по России и другим странам</h2>
+        <div class="items">
+            <div class="item">
+                <a href="#">
+                    <div class="box__content-wrap" style="background-image: url(img/service/service-bg/bg0.png);">
+                        <div class="box__content"><img src="img/service/service-icons/icon0.png" alt="icon0" class="content-img"><span class="content-text">Автомобильные перевозки</span></div>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div class="box__content-wrap" style="background-image: url(img/service/service-bg/bg1.png);">
+                        <div class="box__content"><img src="img/service/service-icons/icon1.png" alt="icon1" class="content-img"><span class="content-text">Таможенное оформление</span></div>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div class="box__content-wrap" style="background-image: url(img/service/service-bg/bg2.png);">
+                        <div class="box__content"><img src="img/service/service-icons/icon2.png" alt="icon2" class="content-img"><span class="content-text">Склад</span></div>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div class="box__content-wrap" style="background-image: url(img/service/service-bg/bg3.png);">
+                        <div class="box__content"><img src="img/service/service-icons/icon3.png" alt="icon3" class="content-img"><span class="content-text">Сборные грузы</span></div>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div class="box__content-wrap" style="background-image: url(img/service/service-bg/bg4.png);">
+                        <div class="box__content"><img src="img/service/service-icons/icon4.png" alt="icon4" class="content-img"><span class="content-text">Аутсорсинг ВЭД</span></div>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div class="box__content-wrap" style="background-image: url(img/service/service-bg/bg5.png);">
+                        <div class="box__content"><img src="img/service/service-icons/icon5.png" alt="icon5" class="content-img"><span class="content-text">Таможенный перевозчик</span></div>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div class="box__content-wrap" style="background-image: url(img/service/service-bg/bg6.png);">
+                        <div class="box__content"><img src="img/service/service-icons/icon6.png" alt="icon6" class="content-img"><span class="content-text">Морские перевозки</span></div>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div class="box__content-wrap" style="background-image: url(img/service/service-bg/bg7.png);">
+                        <div class="box__content"><img src="img/service/service-icons/icon7.png" alt="icon7" class="content-img"><span class="content-text">Страхование</span></div>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#" >
+                    <div class="box__content-wrap" style="background-image: url(img/service/service-bg/bg8.png);">
+                        <div class="box__content"><img src="img/service/service-icons/icon8.png" alt="icon8" class="content-img"><span class="content-text">Перевозка и томоженное оформление <p>личных вещей</p></span></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="route">
+        <h2>Маршруты перевозок</h2>
+        <div class="route__list main_wrap">
+            <div class="list__item">
+                <div class="list__item-wrap">
+                    <div class="list__item-content">
+                        <img src="img/route/flags/rus.png" alt="rus-flag">
+                        <div class="text">
+                            <p>Перевозки по</p>
+                            <span>России</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-wrap">
+                    <div class="list__item-content">
+                        <img src="img/route/flags/ger.png" alt="ger-flag">
+                        <div class="text">
+                            <p>Международые перевозки в/из</p>
+                            <span>Германия</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-wrap">
+                    <div class="list__item-content">
+                        <img src="img/route/flags/it.png" alt="it-flag">
+                        <div class="text">
+                            <p>Международые перевозки в/из</p>
+                            <span>Италия</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-wrap">
+                    <div class="list__item-content">
+                        <img src="img/route/flags/bel.png" alt="bel-flag">
+                        <div class="text">
+                            <p>Международые перевозки в/из</p>
+                            <span>Бельгия</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-wrap">
+                    <div class="list__item-content">
+                        <img src="img/route/flags/gol.png" alt="gol-flag">
+                        <div class="text">
+                            <p>Международые перевозки в/из</p>
+                            <span>Голландия</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-wrap">
+                    <div class="list__item-content">
+                        <img src="img/route/flags/fr.png" alt="fr-glag">
+                        <div class="text">
+                            <p>Международые перевозки в/из</p>
+                            <span>Франция</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-wrap">
+                    <div class="list__item-content">
+                        <img src="img/route/flags/en.png" alt="en-flag">
+                        <div class="text">
+                            <p>Международые перевозки в/из</p>
+                            <span>Англия</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-wrap">
+                    <div class="list__item-content">
+                        <img src="img/route/flags/is.png" alt="is-flag">
+                        <div class="text">
+                            <p>Международые перевозки в/из</p>
+                            <span>Испания</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-wrap">
+                    <div class="list__item-content">
+                        <img src="img/route/flags/cz.png" alt="cz-flag">
+                        <div class="text">
+                            <p>Международые перевозки в/из</p>
+                            <span>Чехия</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-wrap">
+                    <div class="list__item-content">
+                        <img src="img/route/flags/pl.png" alt="pl-flag">
+                        <div class="text">
+                            <p>Международые перевозки в/из</p>
+                            <span>Польша</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-wrap">
+                    <div class="list__item-content">
+                        <img src="img/route/flags/hu.png" alt="hu-flag">
+                        <div class="text">
+                            <p>Международые перевозки в/из</p>
+                            <span>Венгрия</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-wrap">
+                    <div class="list__item-content">
+                        <img src="img/route/flags/svk.png" alt="svk-flag">
+                        <div class="text">
+                            <p>Международые перевозки в/из</p>
+                            <span>Словакия</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-wrap">
+                    <div class="list__item-content">
+                        <img src="img/route/flags/svn.png" alt="svn-flag">
+                        <div class="text">
+                            <p>Международые перевозки в/из</p>
+                            <span>Словения</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-wrap">
+                    <div class="list__item-content">
+                        <img src="img/route/flags/cn.png" alt="cn-flag">
+                        <div class="text">
+                            <p>Международые перевозки в/из</p>
+                            <span>Китай</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item-wrap">
+                    <div class="list__item-content">
+                        <img src="img/route/flags/us.png" alt="us-flag">
+                        <div class="text">
+                            <p>Международые перевозки в/из</p>
+                            <span>США</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="main_wrap">
+            <h1>Транспортная компания Эдельвейс транспорт</h1>
+            <div class="about__description">
+                <div class="description__text">
+                    <p>Транспортно-логистическая компания «Эдельвейс транспорт» занимается организацией перевозок грузов авиа, железнодорожным, речным видом транспорта и автотранспортом.</p>
+                    <p><b>Авиаперевозки грузов</b> - основное направление деятельности нашей компании. Это самый быстрый способ доставки груза. Мы предоставляем полный пакет транспортно-экспедиторских услуг: перевозка скоропортящихся, крупногабаритных, опасных, ценных грузов и грузов, требующих температурного режима.</p>
+                    <p>Мы работаем на всей территории России, по всем направлениям: Урал, Западная и Восточная Сибирь, Дальний Восток, Северные и Южные регионы России.</p>
+                </div>
+                <div class="description__certificates">
+                    <img src="img/about/cer1.png" alt="certificate-1">
+                    <img src="img/about/cer2.png" alt="certificate-2">
+                </div>
+            </div>
+            <div class="about__activity">
+                <h3>Авиаперевозки по России и СНГ - основное направление деятельности</h2>
+                <p>Компания «Эдельвейс транспорт» предоставляет транспортно-экспедиционные услуги по доставке, хранению и обработке грузов и товаров. Данный способ грузоперевозок является наиболее выгодным, при условии необходимости доствки груза на дальние расстояния в максимально сжатые сроки.</p>
+            </div>
+            <div class="about__cooperation">
+                <h3>Сотрудничество с нами - это</h3>
+                <div class="cooperation__box-wrap">
+                    <div class="cooperation__box">
+                        <img src="img/about/coop/icon0.png" alt="icon-0">
+                        <p>Дружелюбный сервис</p>
+                    </div>
+                    <div class="cooperation__box">
+                        <img src="img/about/coop/icon1.png" alt="icon-1">
+                        <p>Оперативное оформление таможенных документов</p>
+                    </div>
+                    <div class="cooperation__box">
+                        <img src="img/about/coop/icon2.png" alt="icon-2">
+                        <p>Своевременная обработка заказов</p>
+                    </div>
+                    <div class="cooperation__box">
+                        <img src="img/about/coop/icon3.png" alt="icon-3">
+                        <p>Четкое соблюдение указанных в договоре сроков</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about__features">
+                <div class="features__container">
+                    <h3>Основные преимущества использования авиации для перевозки грузов:</h3>
+                    <ul>
+                        <li><span>оперативность, что означает соблюдение оговоренных сроков при доставке Ваших товаров;</span></li>
+                        <li><span>надежность - наша компания гарантирует сохранность перевозимых грузов;</span></li>
+                        <li><span>удобство, под которым подразумевается возможность заказа доставки товаров в любом количестве;</span></li>
+                        <li><span>высокий уровень качества обслуживания;</span></li>
+                        <li><span>наивысший уровень безопасности.</span></li>
+                    </ul>
+                </div>
+                <p>Кроме того, что нам не составляет никакого труда справляться со стандартными посылками, мы обладаем большим опытом в доставке негабаритных, опасных грузов и тех, которые требуют особых условий хранения. Решив воспользоваться нашими услугами, наши клиенты всегда могут выбрать оптимальный вариант авиаперевозки своих грузов по России, странам СНГ и за рубеж.</p>
+                <div class="features__container">
+                    <h3>Что получает клиент при заказе доставки у нашей компании?</h3>
+                    <ul>
+                        <li><span>осуществление авиаперевозок, как внутри страны, так и за рубеж (импорт/экспорт);</span></li>
+                        <li><span>предоставление чартерных рейсов для воздужных перевозок;</span></li>
+                        <li><span>осуществление поставок непосредственно в руки;</span></li>
+                        <li><span>применение процедруы ВТТ при грузоперевозках;</span></li>
+                        <li><span>предоставление услуг по экспедированию, оформлению необходимой документации и страхованию;</span></li>
+                        <li><span>информационная поддержка клиентов на бесплатной основе.</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about__advantages">
+                <h3>Преимущества нашей компании</h3>
+                <div class="advantages__box-wrap">
+                    <div class="advantages__box">
+                        <img src="img/about/advantages/icon0.png" alt="icon_0">
+                        <p>Все наши партнеры имеют за плечами многолетний опыт работы и безупречную репутацию</p>
+                    </div>
+                    <div class="advantages__box">
+                        <img src="img/about/advantages/icon1.png" alt="icon_1">
+                        <p>Для нас на первом месте стоит неукоснительное соблюдение всех обязательств, указанных в договоре</p>
+                    </div>
+                    <div class="advantages__box">
+                        <img src="img/about/advantages/icon2.png" alt="icon_2">
+                        <p>Мы гарантируем высокий уровень выполения заказов любой степени сложности и сохранность Вашего товара</p>
+                    </div>
+                    <div class="advantages__box">
+                        <img src="img/about/advantages/icon3.png" alt="icon_3">
+                        <p>Наша служба перевозок предлагает сопутствующие услуги: упаковочные работы, хранение и погрузка/разгрузка товаров</p>
+                    </div>
+                </div>
+                <p>Оформление заказа у службы перевозок компании «ЭйрТрансс» - это, в первую очередь, уверенность в абсолютной сохранности товара, который будет поставлен в точности с указанными в договоре сроками. Все сотрудники нашей организации постоянно совершенствуют свою работу, чтобы быть в состоянии выполнить все Ваши пожелания.</p>
+                <p>Наша компанда менеджеров отличается способностью оперативно принимать важные решения, а профессионализм наших сотрудников находится на высоком уровне, что является залогом успешного выполнения грузовых перевозок любой степени сложности.</p>
+            </div>
+            <div class="about__banners">
+                <img src="img/about/banner1.png" alt="banner1" class="banner1">
+                <img src="img/about/banner2.png" alt="banner2" class="banner2">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="main_wrap">
+            <div class="footer__top">
+                <div class="footer__logo"><a href="#"><img src="img/footer/footer-logo.png" alt="footer-logo"></a></div>
+                <div class="footer__menu">
+                    <div class="footer__menu-pug">
+                        <ul>
+                            <li><a href="#">Грузоперевозки</a></li>
+                            <li><a href="#">Складские услуги</a></li>
+                            <li><a href="#">Аутсорсинг ВЭД</a></li>
+                            <li><a href="#">Маршруты</a></li>
+                            <li><a href="#">Таможенное оформление</a></li>
+                            <li><a href="#">Информация</a></li>
+                            <li><a href="#">Сборные грузы</a></li>
+                            <li><a href="#">Страхование</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__num">
+                    <a href="tel:+74956680440">
+                        <img src="img/footer/icon-phone.png" alt="icon-phone">
+                        <p>+7 (495) <b>668-04-40</b></p>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__copyright">
+                    <span class="copyright__year">© 2016. ООО "Эдельвейс транспорт"</span>
+                    <span class="copyright__create">Создание сайта <p>ДиВиЕР</p></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!--Burger button-->
+    <script>
+        $(document).ready(function(){
+        $('#pagination__burger-menu').on('click', function() {
+            $('#pagination__burger-menu').toggleClass('active');
+            $('.pagination__menu').toggleClass('hidden');
+        })
+        })
+    </script>
+
+    <!--Dropdown menu-->
+    <script>
+        $(document).ready(function(){
+            $('.dropdown-arrow').on('click',function(){
+                if($(this).parent().hasClass('open')){
+                    $(this).parent().removeClass('open');
+                }
+                else{
+                    $('.pagination__menu-dropdown_parent').removeClass('open');
+                    $(this).parent().addClass('open');
+                }
+            });
+        })
+    </script>
+
+</body>
+</html>
